@@ -52,9 +52,12 @@ This Spring Boot application provides a REST API for fetching weather data from 
 
 **Example Request**:
 ```bash
-curl -H "X-Api-Key: your_api_key" "http://localhost:8080/weather?city=London&country=uk"
+curl -H "X-Api-Key: ABCDEF12345" -X GET "http://localhost:8080/api/weather?city=London&country=uk"
 ```
-
+Open the `application.properties` file located in `src/main/resources`
+```properties
+weather.api.keys=keys_can_be_use
+```
 5. **Sample API Responses**:
 
 - Sample Success Response
