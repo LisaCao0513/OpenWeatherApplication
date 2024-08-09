@@ -89,7 +89,7 @@ weather.api.keys=keys_can_be_use
 mvn test
 ```
 Unit test is 100% covered in the main logic like controller and services. Test cases are covered all the business logic and adopt TDD while developing
-
+![img.png](img.png)
 ### Notes:
 - *Database*: The application uses an H2 in-memory database for simplicity. For production use, consider configuring a persistent database. Or if using H2 as caching, might consider refresh time for clean cache.
 - *Response*: error response can be more specific to handle the message error object from OpenWeatherApi. Currently return what response from OpenWeatherMap Api.
