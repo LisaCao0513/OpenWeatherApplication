@@ -27,7 +27,7 @@ This Spring Boot application provides a REST API for fetching weather data from 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-repository/weather-service.git
+    git clone https://github.com/LisaCao0513/weather-service.git
     cd weather-service
     ```
 
